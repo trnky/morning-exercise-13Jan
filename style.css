@@ -2,7 +2,7 @@ html {
     
 }
 
-a {
+nav a {
     color: crimson;
     text-decoration: none;
 }
@@ -19,16 +19,24 @@ a {
     color: crimson;
 }
 
-.creators a {
-    font-family: 'PT Serif', serif;
-    font-weight: 700;
-}
-
 .creators a:nth-child(1){
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
 
+.creators a:nth-child(even){
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.cta h2 {
+color: crimson;
+font-family: 'Lato', sans-serif;
+}
+
+ul li:nth-child(odd) {
+    text-decoration: underline;
+}
 
 
 
